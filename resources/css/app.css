@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* pour la gestion des éléments cachés avant que le script TW soit activé */
+[x-cloak] { 
+    display: none !important;
+}
+
